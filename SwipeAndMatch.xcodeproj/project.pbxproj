@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		37001AF52BA4CF3A00F9C4AA /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37001AF42BA4CF3A00F9C4AA /* Extensions+UIView.swift */; };
+		37001AF92BA4DB3400F9C4AA /* HomeBottomControlsSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37001AF82BA4DB3400F9C4AA /* HomeBottomControlsSV.swift */; };
+		37001AFB2BA4DB7F00F9C4AA /* TopNavigationSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37001AFA2BA4DB7F00F9C4AA /* TopNavigationSV.swift */; };
 		37E7D1A12BA4CD9B00F7D58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7D1A02BA4CD9B00F7D58C /* AppDelegate.swift */; };
 		37E7D1A32BA4CD9B00F7D58C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7D1A22BA4CD9B00F7D58C /* SceneDelegate.swift */; };
 		37E7D1A52BA4CD9B00F7D58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7D1A42BA4CD9B00F7D58C /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		37001AF42BA4CF3A00F9C4AA /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		37001AF82BA4DB3400F9C4AA /* HomeBottomControlsSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsSV.swift; sourceTree = "<group>"; };
+		37001AFA2BA4DB7F00F9C4AA /* TopNavigationSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationSV.swift; sourceTree = "<group>"; };
 		37E7D19D2BA4CD9B00F7D58C /* SwipeAndMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAndMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E7D1A02BA4CD9B00F7D58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37E7D1A22BA4CD9B00F7D58C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,23 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		37001AF62BA4DAFF00F9C4AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37E7D1A42BA4CD9B00F7D58C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37001AF72BA4DB0800F9C4AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37001AF82BA4DB3400F9C4AA /* HomeBottomControlsSV.swift */,
+				37001AFA2BA4DB7F00F9C4AA /* TopNavigationSV.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		37E7D1942BA4CD9B00F7D58C = {
 			isa = PBXGroup;
 			children = (
@@ -75,9 +96,10 @@
 		37E7D19F2BA4CD9B00F7D58C /* SwipeAndMatch */ = {
 			isa = PBXGroup;
 			children = (
+				37001AF62BA4DAFF00F9C4AA /* Controller */,
 				37001AF32BA4CF1F00F9C4AA /* Extensions */,
+				37001AF72BA4DB0800F9C4AA /* Views */,
 				37001AF22BA4CE7200F9C4AA /* Support */,
-				37E7D1A42BA4CD9B00F7D58C /* ViewController.swift */,
 				37E7D1AE2BA4CD9C00F7D58C /* Info.plist */,
 			);
 			path = SwipeAndMatch;
@@ -157,6 +179,8 @@
 				37E7D1A12BA4CD9B00F7D58C /* AppDelegate.swift in Sources */,
 				37001AF52BA4CF3A00F9C4AA /* Extensions+UIView.swift in Sources */,
 				37E7D1A32BA4CD9B00F7D58C /* SceneDelegate.swift in Sources */,
+				37001AFB2BA4DB7F00F9C4AA /* TopNavigationSV.swift in Sources */,
+				37001AF92BA4DB3400F9C4AA /* HomeBottomControlsSV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
